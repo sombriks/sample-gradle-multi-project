@@ -6,3 +6,5 @@ gradle
 .project
 .settings
 .vscode
+build
+bin

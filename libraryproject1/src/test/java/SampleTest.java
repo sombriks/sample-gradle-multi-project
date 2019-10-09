@@ -9,7 +9,7 @@ public class SampleTest {
 
     @Test
     public void shouldHaveProperty() throws Exception {
-        Properties props = PropsLoader.fromClassPath("application.properties");
-        assertEquals("1", props.getProperty("foo.bar"));
+        Properties props = PropsLoader.fromClassPath("application-test.properties");
+        assertEquals("11", props.getProperty("foo.bar"));
     }
 }
