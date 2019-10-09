@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.multi.SampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-09T16:29:51" hostname="setzer" time="0.0">
+  <properties/>
+  <testcase name="shouldHaveProperty" classname="sample.multi.SampleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

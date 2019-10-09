@@ -1,0 +1,5 @@
+// every subproject must be listed here
+rootProject.name = 'sample-gradle-multi-project'
+
+include 'webproject'
+include 'libraryproject1'

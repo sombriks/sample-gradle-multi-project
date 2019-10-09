@@ -1,0 +1,4 @@
+// projeto biblioteca
+plugins {
+    id 'java'
+}

@@ -1,0 +1,14 @@
+// demais dependências no projeto pai
+plugins {
+  id 'war'
+  id 'org.gretty' version '2.3.1'
+}
+
+gretty {
+  contextPath = '/'
+}
+
+dependencies {
+  compile project(':libraryproject1')
+  providedCompile 'javax.servlet:javax.servlet-api:3.1.0' 
+}

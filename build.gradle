@@ -1,0 +1,11 @@
+// i's possible to define repositories, but not dependencies
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+subprojects {
+    version = '1.0'
+}
+
