@@ -11,7 +11,7 @@ public class SampleTest {
 
     @Test
     public void shouldHaveProperty() throws Exception {
-        Properties props = PropsLoader.fromClassPath("application.properties");
-        assertEquals("2", props.getProperty("foo.bar"));
+        Properties props = PropsLoader.fromClassPath("application-test.properties");
+        assertEquals("20", props.getProperty("foo.bar"));
     }
 }

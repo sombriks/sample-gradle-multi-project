@@ -1,4 +1,5 @@
 import lib1.PropsLoader;
+
 import org.junit.Test;
 
 import java.util.Properties;
