@@ -1,10 +1,11 @@
 gradlew
 gradlew.bat
-.idea
-.gradle
 gradle
-.project
-.settings
-.vscode
 build
 bin
+.gradle
+.project
+.classpath
+.settings
+.vscode
+.idea
